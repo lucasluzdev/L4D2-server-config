@@ -1,0 +1,46 @@
+"Phrases"
+{
+	// =====================================================
+	// TITLE
+	// =====================================================
+
+	"Title"
+	{
+		"en"	"{blue}[{default}Tank Rock Selector{blue}]"
+		"pt"	"{blue}[{default}Seletor de Rochas do Tank{blue}]"
+		"es"	"{blue}[{default}Selector de Rocas del Tank{blue}]"
+	}
+
+	// =====================================================
+	// OVERHAND (2 HANDS)
+	// =====================================================
+
+	"Reload"
+	{
+		"en"	"{olive}Reload{default}/{lightgreen}!overhand{default} = {blue}2 Handed Overhand"
+		"pt"	"{olive}Reload{default}/{lightgreen}!overhand{default} = {blue}Arremesso Alto com 2 Mãos"
+		"es"	"{olive}Reload{default}/{lightgreen}!overhand{default} = {blue}Lanzamiento Alto con 2 Manos"
+	}
+
+	// =====================================================
+	// UNDERHAND
+	// =====================================================
+
+	"Use"
+	{
+		"en"	"{olive}Use{default}/{lightgreen}!underhand{default} = {blue}Underhand"
+		"pt"	"{olive}Use{default}/{lightgreen}!underhand{default} = {blue}Arremesso por Baixo"
+		"es"	"{olive}Use{default}/{lightgreen}!underhand{default} = {blue}Lanzamiento Bajo"
+	}
+
+	// =====================================================
+	// OVERHAND (1 HAND)
+	// =====================================================
+
+	"M2"
+	{
+		"en"	"{olive}M2{default}/{lightgreen}!overonehand{default} = {blue}1 Handed Overhand"
+		"pt"	"{olive}M2{default}/{lightgreen}!overonehand{default} = {blue}Arremesso Alto com 1 Mão"
+		"es"	"{olive}M2{default}/{lightgreen}!overonehand{default} = {blue}Lanzamiento Alto con 1 Mano"
+	}
+}

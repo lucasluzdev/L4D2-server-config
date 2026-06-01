@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Servidor Versus L4Ever</title>
+</head>
+
+<body>
+
+    <h1>Servidor Versus L4Ever</h1>
+
+    <div>
+
+        <p><b>Regras:</b></p>
+        <p>- Respeite os jogadores</p>
+        <p>- Sem comportamento toxico</p>
+        <p>- Nao atrapalhar o proprio time</p>
+        <p>- Nao abusar de bugs</p>
+
+        <br>
+
+        <p><b>Comandos:</b></p>
+        <p>- !afk -> espectador</p>
+        <p>- !survivors -> entrar no time sobrevivente</p>
+        <p>- !infected -> entrar no time infectado</p>
+        <p>- !pass OU !tankpass OU !passtank -> passar o tank para um membro da equipe</p>
+
+        <p>Bom jogo!</p>
+
+    </div>
+
+</body>
+
+</html>

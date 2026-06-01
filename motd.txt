@@ -1,0 +1,15 @@
+Servidor Versus L4Ever
+
+        Regras:
+        - Respeite os jogadores
+        - Sem comportamento toxico
+        - Nao atrapalhar o proprio time
+        - Nao abusar de bugs
+
+        Comandos:
+        !afk -> espectador
+        !survivors -> entrar no time sobrevivente
+        !infected -> entrar no time infectado
+        !pass OU !tankpass OU !passtank -> passar o tank para um membro da equipe
+
+Bom jogo!
