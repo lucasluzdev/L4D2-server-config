@@ -1,32 +1,16 @@
-<html>
-<head>
-    <title>Servidor Versus L4Ever</title>
-</head>
+REGRAS:
+- Respeite os jogadores!
+- Sem comportamento toxico!
+- Nao atrapalhar o proprio time!
+- Nao abusar de bugs!
 
-<body>
+COMANDOS:
+- !afk -> espectador
+- !survivors -> entrar no time sobrevivente
+- !infected -> entrar no time infectado
+- !pass OU !tankpass OU !passtank -> passar o tank para um membro da equipe
+- !tank -> ver onde tank/witch vão spawnar, e o progresso atual dos sobreviventes
+- !tankbuster -> obter armas T1
+- Tank tem 8000 de HP, e pedras divididas entre M2, E e R. SEM HAYMAKER!
 
-    <h1>Servidor Versus L4Ever</h1>
-
-    <div>
-
-        <p><b>Regras:</b></p>
-        <p>- Respeite os jogadores</p>
-        <p>- Sem comportamento toxico</p>
-        <p>- Nao atrapalhar o proprio time</p>
-        <p>- Nao abusar de bugs</p>
-
-        <br>
-
-        <p><b>Comandos:</b></p>
-        <p>- !afk -> espectador</p>
-        <p>- !survivors -> entrar no time sobrevivente</p>
-        <p>- !infected -> entrar no time infectado</p>
-        <p>- !pass OU !tankpass OU !passtank -> passar o tank para um membro da equipe</p>
-
-        <p>Bom jogo!</p>
-
-    </div>
-
-</body>
-
-</html>
+BOM JOGO!
