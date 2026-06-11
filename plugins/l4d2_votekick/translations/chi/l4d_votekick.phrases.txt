@@ -1,0 +1,193 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"chi"		"选择要踢出/取消踢出的球员："		
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"chi"		"{orange}玩家数量不足，无法开始投票。{cyan}最低要求：{1}"
+	}
+	"not_in_game"
+	{
+		"chi"		"{orange}玩家已断开连接。"
+	}
+	"no_access_specific"
+	{
+		"chi"		"{cyan}%N {orange} 尝试发起投票以踢出 {cyan}%s{orange}，但没有权限。"
+	}
+	"no_access_specific_unkick"
+	{
+		"chi"		"{cyan}%N {orange} 尝试发起投票以取消踢出 {cyan}%s{orange}，但没有访问权限。"
+	}
+	"no_access"
+	{
+		"chi"		"无法访问。"
+	}
+	"no_access_immunity"
+	{
+		"chi"		"目标具有较高的免疫力。"
+	}
+	"other_vote"
+	{
+		"chi"		"{orange}另一次投票尚未结束！"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"chi"		"您想踢出：{1} 吗？"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"chi"		"您想要从 {1} 中移除踢出吗？"
+	}
+	"vote_started"
+	{
+		"chi"		"{cyan}%N {qhite}发起了一项投票，以踢出 {cyan}%s\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"chi"		"踢出 {cyan}%s{white} 的投票已开始。\n"
+	}
+	"vote_started_otherteam"
+	{
+		"chi"		"对方球队已开始投票决定是否踢出一名球员。"
+	}
+	"vote_started_unkick"
+	{
+		"chi"		"{cyan}%N {orange} 发起投票取消来自 {cyan}% 的踢出：%s"
+	}
+	"Yes"
+	{
+		"chi"		"是的"
+	}
+	"No"
+	{
+		"chi"		"不"
+	}
+	"too_often"
+	{
+		"chi"		"{orange}您不能投票太频繁！"
+	}
+	"veto"
+	{
+		"chi"		"{orange}当前投票被{cyan}%N否决"
+	}
+	"votepass"
+	{
+		"chi"		"{green}当前投票已由{cyan}%N通过"
+	}
+	"vote_failed"
+	{
+		"chi"		"踢出投票 失败。"
+	}
+	"vote_failed_otherteam"
+	{
+		"chi"		"另一支球队的踢出投票失败。"
+	}
+	"vote_failed_unkick"
+	{
+		"chi"		"{cyan}取消禁令{orange}的投票失败。"
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{cyan}{1} {white} 被踢出"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"chi"		"另一支球队以投票方式踢出{1}"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{cyan}{1} {white}- 禁令已解除"
+	}
+	"kick_reason"
+	{
+		"chi"		"您已被踢出会话"
+	}
+	"kick_for"
+	{
+		"chi"		"被踢出的原因"
+	}
+	"Reason_Menu"
+	{
+		"chi"		"原因"
+	}
+	"Reason"
+	{
+		"chi"		"{white}原因：{orange}"
+	}
+	"Bad language"
+	{
+		"chi"		"脏话"
+	}
+	"Cheater"
+	{
+		"chi"		"骗子"
+	}
+	"Rusher"
+	{
+		"chi"		"冲锋者"
+	}
+	"Friendly fire"
+	{
+		"chi"		"误伤友军"
+	}
+	"Griefing"
+	{
+		"chi"		"恶意的"
+	}
+	"Microphone"
+	{
+		"chi"		"麦克风问题"
+	}
+	"Microphone issues"
+	{
+		"chi"		"麦克风问题"
+	}
+	"AFK"
+	{
+		"chi"		"AFK"
+	}	
+	"Other"
+	{
+		"chi"		"其他原因"
+	}
+	"Reason not specified"
+	{
+		"chi"		"未说明原因"
+	}
+	"detailed_vote_results"
+	{
+		"chi"		"投票结束。（{green}是{white} - {orange}否{white} - 未回答）：{green}%d{white} - {orange}%d{white} - %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"chi"		"{green}注意：您的反对票将自动投出"
+	}
+	"note_to_target_manual_vote"
+	{
+		"chi"		"{orange}由于您不活跃，您需要手动投票反对"
+	}
+	"survivor"
+	{
+		"chi"		"幸存者"
+	}
+	"infected"
+	{
+		"chi"		"已感染"
+	}
+}

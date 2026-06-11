@@ -1,0 +1,197 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"es"		"Seleccionar jugador para expulsar/desbanear:"		
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"es"		"{orange}No hay suficientes jugadores para iniciar la votación. {cyan}Mínimo requerido: {1}"
+	}
+	"not_in_game"
+	{
+		"es"		"{orange}El jugador ya abandonó el juego."
+	}
+	"no_access_specific"
+	{
+		"es"		"{cyan}%N {orange}intentó iniciar una votación para expulsar a {cyan}%s{orange} pero no tiene acceso."
+	}
+	"no_access_specific_unkick"
+	{
+		"es"		"{cyan}%N {orange}intentó desbloquear {cyan}%s{orange} pero no tiene acceso."
+	}
+	"no_access"
+	{
+		"es"		"Sin acceso."
+	}
+	"no_access_immunity"
+	{
+		"es"		"El objetivo tiene un mayor nivel de protección."
+	}
+	"other_vote"
+	{
+		"es"		"{orange}¡La otra votación aún no ha terminado!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"es"		"Do you want to kick: {1} ?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"es"		"Do you want to remove the kick from: {1} ?"
+	}
+	"vote_started"
+	{
+		"es"		"{cyan}%N {orange}ha iniciado una votación contra {cyan}%s{white}\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"es"		"Se ha iniciado una votación para expulsar a {cyan}%s{white}\n"
+	}
+	"vote_started_otherteam"
+	{
+		"es"		"El equipo contrario ha comenzado a votar sobre si expulsar a un jugador."
+	}
+	"vote_started_anonymous"
+	{
+		"es"		"El equipo %s ha iniciado una votación para expulsar a un jugador.\n"
+	}
+	"vote_started_unkick"
+	{
+		"es"		"{cyan}%N {orange}ha iniciado una votación para desbanear a {cyan}%s{white}"
+	}
+	"Yes"
+	{
+		"es"		"Sí"
+	}
+	"No"
+	{
+		"es"		"No"
+	}
+	"too_often"
+	{
+		"es"		"{orange}Por favor, espere un momento antes de poder votar nuevamente."
+	}
+	"veto"
+	{
+		"es"		"{orange}La votación no tuvo éxito: Veto de {cyan}%N"
+	}
+	"votepass"
+	{
+		"es"		"{green}Votación exitosa: Aprobación de {cyan}%N"
+	}
+	"vote_failed"
+	{
+		"es"		"La votación no tuvo éxito."
+	}
+	"vote_failed_otherteam"
+	{
+		"es"		"Una votación de expulsión por parte del otro equipo falló."
+	}
+	"vote_failed_unkick"
+	{
+		"es"		"{cyan}El bloqueo {orange}no se ha levantado."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"es"		"{cyan}{1}{white} fue expulsado"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"es"		"El otro equipo expulsó a {cyan}{1}{white} por votación"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"es"		"{cyan}{1} {orange}- Se levantó el bloqueo"
+	}
+	"kick_reason"
+	{
+		"es"		"You have been kicked from session"
+	}
+	"kick_for"
+	{
+		"es"		"Expulsado por"
+	}
+	"Reason_Menu"
+	{
+		"es"		"Razón"
+	}
+	"Reason"
+	{
+		"es"		"{white}Razón:{orange}"
+	}
+	"Bad language"
+	{
+		"es"		"comportamiento inaceptable"
+	}
+	"Cheater"
+	{
+		"es"		"Cheater"
+	}
+	"Rusher"
+	{
+		"es"		"Rusher"
+	}
+	"Friendly fire"
+	{
+		"es"		"Friendly fire"
+	}
+	"Griefing"
+	{
+		"es"		"Griefing"
+	}
+	"Microphone"
+	{
+		"es"		"Problemas con el micrófono"
+	}
+	"Microphone issues"
+	{
+		"es"		"Problemas con el micrófono"
+	}
+	"AFK"
+	{
+		"es"		"AFK"
+	}	
+	"Other"
+	{
+		"es"		"Otra razón"
+	}
+	"Reason not specified"
+	{
+		"es"		"Razón no dada"
+	}
+	"detailed_vote_results"
+	{
+		"es"		"Votación finalizada.  ({green}Sí{white} - {orange}No{white} - Ninguno):  {green}%d{white} - {orange}%d{white} - %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"es"		"{green}Su voto en contra se contabilizará automáticamente."
+	}
+	"note_to_target_manual_vote"
+	{
+		"es"		"{orange}Dado que estás inactivo, debes votar manualmente en contra."
+	}
+	"survivor"
+	{
+		"es"		"Survivor"
+	}
+	"infected"
+	{
+		"es"		"Infected"
+	}
+}

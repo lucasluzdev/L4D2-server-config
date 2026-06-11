@@ -1,0 +1,258 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"en"		"Select player to kick / un-kick:"
+		"pt"		"Selecione o jogador para expulsar / remover expulsão:"
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"en"		"{orange}Not enough players to start the vote. {cyan}Required minimum: {1}"
+		"pt"		"{orange}Jogadores insuficientes para iniciar a votação. {cyan}Mínimo necessário: {1}"
+	}
+	"not_in_game"
+	{
+		"en"		"{orange}Player is already disconnected."
+		"pt"		"{orange}O jogador já está desconectado."
+	}
+	"no_access_specific"
+	{
+		"en"		"{cyan}%N {orange}tried to start a vote to kick {cyan}%s{orange}, but doesn't have access."
+		"pt"		"{cyan}%N {orange}tentou iniciar uma votação para expulsar {cyan}%s{orange}, mas não tem permissão."
+	}
+	"no_access_specific_unkick"
+	{
+		"en"		"{cyan}%N {orange}tried to start a vote to un-kick {cyan}%s{orange}, but doesn't have access."
+		"pt"		"{cyan}%N {orange}tentou iniciar uma votação para remover expulsão de {cyan}%s{orange}, mas não tem permissão."
+	}
+	"no_access"
+	{
+		"en"		"No access."
+		"pt"		"Sem permissão."
+	}
+	"no_access_immunity"
+	{
+		"en"		"Target has higher immunity."
+		"pt"		"O alvo tem imunidade superior."
+	}
+	"other_vote"
+	{
+		"en"		"{orange}Another vote is not over yet!"
+		"pt"		"{orange}Outra votação ainda não terminou!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"en"		"Do you want to kick: {1} ?"
+		"pt"		"Você quer expulsar: {1} ?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"en"		"Do you want to remove the kick from: {1} ?"
+		"pt"		"Você quer remover a expulsão de: {1} ?"
+	}
+	"vote_started"
+	{
+		"en"		"{cyan}%N {white}started a vote to kick {cyan}%s\n"
+		"pt"		"{cyan}%N {white}iniciou uma votação para expulsar {cyan}%s\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"en"		"A vote to kick {cyan}%s{white} has been started.\n"
+		"pt"		"Uma votação para expulsar {cyan}%s{white} foi iniciada.\n"
+	}
+	"vote_started_otherteam"
+	{
+		"en"		"The other team team started a vote to kick a team member.\n"
+		"pt"		"O outro time iniciou uma votação para expulsar um membro do time.\n"
+	}
+	"vote_started_unkick"
+	{
+		"en"		"{cyan}%N {white}started a vote to un-kick: {cyan}%s"
+		"pt"		"{cyan}%N {white}iniciou uma votação para remover expulsão de: {cyan}%s"
+	}
+	"vote_started_unkick_anonymous_initiator"
+	{
+		"en"		"A vote to un-kick {cyan}%s{white} has been started.\n"
+		"pt"		"Uma votação para remover expulsão de {cyan}%s{white} foi iniciada.\n"
+	}
+	"vote_started_unkick_otherteam"
+	{
+		"en"		"The other team started a vote to un-kick: {cyan}%s"
+		"pt"		"O outro time iniciou uma votação para remover expulsão de: {cyan}%s"
+	}
+	"Yes"
+	{
+		"en"		"Yes"
+		"pt"		"Sim"
+	}
+	"No"
+	{
+		"en"		"No"
+		"pt"		"Não"
+	}
+	"too_often"
+	{
+		"en"		"{orange}You can't vote too often!"
+		"pt"		"{orange}Você não pode votar com tanta frequência!"
+	}
+	"veto"
+	{
+		"en"		"{orange}Current vote is vetoed by {cyan}%N"
+		"pt"		"{orange}A votação atual foi vetada por {cyan}%N"
+	}
+	"votepass"
+	{
+		"en"		"{green}Current vote is passed by {cyan}%N"
+		"pt"		"{green}A votação atual foi aprovada por {cyan}%N"
+	}
+	"vote_failed"
+	{
+		"en"		"The kick vote failed."
+		"pt"		"A votação para expulsão falhou."
+	}
+	"vote_failed_otherteam"
+	{
+		"en"		"The kick vote by the other team failed."
+		"pt"		"A votação para expulsão pelo outro time falhou."
+	}
+	"vote_failed_unkick"
+	{
+		"en"		"The vote to remove the ban failed."
+		"pt"		"A votação para remover a expulsão falhou."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"en"		"{cyan}{1} {white}is kicked out"
+		"pt"		"{cyan}{1} {white}foi expulso"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"en"		"The other team kicked {1} by vote"
+		"pt"		"O outro time expulsou {1} por votação"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"en"		"{cyan}{1} {white}- ban is removed"
+		"pt"		"{cyan}{1} {white}- a expulsão foi removida"
+	}
+	"kick_reason"
+	{
+		"en"		"You have been kicked from session"
+		"pt"		"Você foi expulso da sessão"
+	}
+	"kick_for"
+	{
+		"en"		"Kicked for"
+		"pt"		"Expulso por"
+	}
+	"time_left"
+	{
+		"#format"	"{1:i}"
+		"en"		"({1} min. left)"
+		"pt"		"({1} min. restantes)"
+	}
+	"Reason_Menu"
+	{
+		"en"		"Reason"
+		"pt"		"Motivo"
+	}
+	"Reason"
+	{
+		"en"		"{white}Reason:{orange}"
+		"pt"		"{white}Motivo:{orange}"
+	}
+	"Bad language"
+	{
+		"en"		"Bad language"
+		"pt"		"Linguagem inadequada"
+	}
+	"Cheater"
+	{
+		"en"		"Cheater"
+		"pt"		"Trapaceiro"
+	}
+	"Rusher"
+	{
+		"en"		"Rusher"
+		"pt"		"Corredor/Apressado"
+	}
+	"Friendly fire"
+	{
+		"en"		"Friendly fire"
+		"pt"		"Fogo amigo"
+	}
+	"Griefing"
+	{
+		"en"		"Griefing"
+		"pt"		"Trollagem/Sabotagem"
+	}
+	"Microphone"
+	{
+		"en"		"Microphone issues"
+		"pt"		"Problemas com microfone"
+	}
+	"Microphone issues"
+	{
+		"en"		"Microphone issues"
+		"pt"		"Problemas com microfone"
+	}
+	"AFK"
+	{
+		"en"		"AFK"
+		"pt"		"AFK"
+	}	
+	"Other"
+	{
+		"en"		"Other"
+		"pt"		"Outro"
+	}
+	"Reason not specified"
+	{
+		"en"		"Reason not specified"
+		"pt"		"Motivo não especificado"
+	}
+	"detailed_vote_results"
+	{
+		"en"		"Vote ended.  ({green}Yes{white} - {orange}No{white} - Unanswered):  {green}%d{white} - {orange}%d{white} - %d"
+		"pt"		"Votação encerrada. ({green}Sim{white} - {orange}Não{white} - Não responderam): {green}%d{white} - {orange}%d{white} - %d"
+	}
+	"steamid_is_banned"
+	{
+		"en"		"STEAM UserID %s is banned"
+		"pt"		"STEAM UserID %s está banido"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"en"		"{green}Note: Your vote against will be cast automatically"
+		"pt"		"{green}Nota: Seu voto contra será registrado automaticamente"
+	}
+	"note_to_target_manual_vote"
+	{
+		"en"		"{orange}Since you are inactive, you need to vote manually against it"
+		"pt"		"{orange}Como você está inativo, precisa votar manualmente contra"
+	}
+	"survivor"
+	{
+		"en"		"Survivor"
+		"pt"		"Sobrevivente"
+	}
+	"infected"
+	{
+		"en"		"Infected"
+		"pt"		"Infectado"
+	}
+}

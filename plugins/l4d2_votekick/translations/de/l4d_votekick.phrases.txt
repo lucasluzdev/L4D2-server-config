@@ -1,0 +1,197 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"de"		"Spieler auswählen, um ihn rauszuwerfen / um seine Sperre aufzuheben:
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"de"		"{orange}Zu wenig Spieler für Abstimmung{white}. {cyan}Mindestens erforderlich: {1}:
+	}
+	"not_in_game"
+	{
+		"de"		"{orange}Der Spieler hat das Spiel bereits verlassen."
+	}
+	"no_access_specific"
+	{
+		"de"		"{cyan}%N {white}hat versucht, eine Abstimmung gegen {cyan}%s{white} zu starten, {orange}hat aber keinen Zugriff{white}."
+	}
+	"no_access_specific_unkick"
+	{
+		"de"		"{cyan}%N {white}hat versucht, die Sperre von {cyan}%s{white} aufzuheben, {orange}hat aber keinen Zugriff{white}."
+	}
+	"no_access"
+	{
+		"de"		"Kein Zugriff."
+	}
+	"no_access_immunity"
+	{
+		"de"		"Der Spieler besitzt einen höheren Schutzlevel."
+	}
+	"other_vote"
+	{
+		"de"		"{orange}Eine andere Abstimmung ist noch nicht zu Ende!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"de"		"Möchtest Du {1} rauswerfen ?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"de"		"Möchtest Du die Sperre von {1} aufheben ?"
+	}
+	"vote_started"
+	{
+		"de"		"{cyan}%N {white}hat eine Abstimmung gegen {cyan}%s{white} gestartet\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"de"		"Eine Abstimmung zum Rauswurf von {cyan}%s{white} wurde gestartet\n"
+	}
+	"vote_started_otherteam"
+	{
+		"de"		"Das andere Team hat eine Kickvote gestartet.\n"
+	}
+	"vote_started_unkick"
+	{
+		"de"		"{cyan}%N {white}hat eine Abstimmung gestartet, um die Sperre von {cyan}%s{white} aufzuheben"
+	}
+	"vote_started_unkick_anonymous_initiator"
+	{
+		"de"		"Eine Abstimmung zum Aufheben des Rauswurfs von {cyan}%s{white} wurde gestartet.\n"
+	}
+	"vote_started_unkick_otherteam"
+	{
+		"de"		"Das andere Team hat eine Abstimmung zur Aufhebung des Rauswurfs von {cyan}%s{white} gestartet."
+	}
+	"Yes"
+	{
+		"de"		"Ja"
+	}
+	"No"
+	{
+		"de"		"Nein"
+	}
+	"too_often"
+	{
+		"de"		"{orange}Warte etwas, um erneut abzustimmen."
+	}
+	"veto"
+	{
+		"de"		"Abstimmung nicht erfolgreich: {orange}Veto von {cyan}%N"
+	}
+	"votepass"
+	{
+		"de"		"Abstimmung erfolgreich: {green}Genehmigung von {cyan}%N"
+	}
+	"vote_failed"
+	{
+		"de"		"Die Abstimmung war nicht erfolgreich."
+	}
+	"vote_failed_otherteam"
+	{
+		"de"		"Die Kickvote des anderen Teams war nicht erfolgreich."
+	}
+	"vote_failed_unkick"
+	{
+		"de"		"{cyan}%N {white}- Die Sperre wurde nach Abstimmung nicht aufgehoben."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"de"		"{cyan}{1}{white} wird rausgeworfen"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"de"		"{1} wird nach Abstimmung des anderen Teams rausgeworfen"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"de"		"{cyan}{1}{white} - Sperre aufgehoben"
+	}
+	"kick_for"
+	{
+		"de"		"Rauswurf wegen"
+	}
+	"Reason_Menu"
+	{
+		"de"		"Grund"
+	}
+	"Reason"
+	{
+		"de"		"{white}Grund:{orange}"
+	}
+	"Bad language"
+	{
+		"de"		"Schlechtes Benehmen"
+	}
+	"Cheater"
+	{
+		"de"		"Cheater"
+	}
+	"Rusher"
+	{
+		"de"		"Rusher"
+	}
+	"Friendly fire"
+	{
+		"de"		"Friendly fire"
+	}
+	"Griefing"
+	{
+		"de"		"Griefing"
+	}
+	"Microphone"
+	{
+		"de"		"Mikrofonprobleme"
+	}
+	"Microphone issues"
+	{
+		"de"		"Microfonprobleme"
+	}
+	"AFK"
+	{
+		"de"		"AFK"
+	}	
+	"Other"
+	{
+		"de"		"Anderer Grund"
+	}
+	"Reason not specified"
+	{
+		"de"		"Kein Grund angegeben"
+	}
+	"detailed_vote_results"
+	{
+		"de"		"Abstimmung beendet.  ({green}Ja{white} - {orange}Nein{white} - Keine):  {green}%d{white} - {orange}%d{white} - %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"de"		"{green}Deine Gegenstimme wird automatisch abgegeben."
+	}
+	"note_to_target_manual_vote"
+	{
+		"de"		"{orange}Du bist inaktiv. Deine Gegenstimme wird nicht automatisch abgegeben."
+	}
+	"survivor"
+	{
+		"de"		"Survivor"
+	}
+	"infected"
+	{
+		"de"		"Infected"
+	}
+}

@@ -1,0 +1,517 @@
+﻿"Phrases"
+{
+	"MAIN TITLE"
+	{
+	"en"			"Main Menu Title\nDescription"
+	"pt"			"Título do Menu Principal\nDescrição"
+	"es"			"Título del Menú Principal\nDescripción"
+	}
+	"TAG"						
+	{
+	"en"			"[Tag]: {green}{itemname}"
+	"pt"			"[Tag]: {green}{itemname}"
+	"es"			"[Tag]: {green}{itemname}"
+	}
+	"NOTE"						
+	{
+	"en"			"Open help menu by typing \"!helpmenu\" in chat."
+	"pt"			"Abra o menu de ajuda digitando \"!helpmenu\" no chat."
+	"es"			"Abra el menú de ayuda escribiendo \"!helpmenu\" en el chat."
+	}
+	"PARTITION"						
+	{
+	"en"			"============================================"
+	"pt"			"============================================"
+	"es"			"============================================"
+	}
+	"CATEGORY1"				
+	{
+	"en"			"Category1"
+	"pt"			"Categoria1"
+	"es"			"Categoría1"
+	}
+	"C1_1"					
+	{
+	"en"			"category1, item1"
+	"pt"			"categoria1, item1"
+	"es"			"categoría1, elemento1"
+	}
+	"C1_1_1"
+	{
+	"en"			"category1, item1, message1"
+	"pt"			"categoria1, item1, mensagem1"
+	"es"			"categoría1, elemento1, mensaje1"
+	}
+	"C1_2"					
+	{
+	"en"			"category1, item2"
+	"pt"			"categoria1, item2"
+	"es"			"categoría1, elemento2"
+	}
+	"C1_2_1"
+	{
+	"en"			"category1, item2, message1"
+	"pt"			"categoria1, item2, mensagem1"
+	"es"			"categoría1, elemento2, mensaje1"
+	}
+	"C1_3"
+	{
+	"en"			"category1, item3, multi message"
+	"pt"			"categoria1, item3, mensagem múltipla"
+	"es"			"categoría1, elemento3, mensaje múltiple"
+	}
+	"C1_3_1"
+	{
+	"en"			"category1, item3, message1"
+	"pt"			"categoria1, item3, mensagem1"
+	"es"			"categoría1, elemento3, mensaje1"
+	}
+	"C1_3_2"
+	{
+	"en"			"category1, item3, message2"
+	"pt"			"categoria1, item3, mensagem2"
+	"es"			"categoría1, elemento3, mensaje2"
+	}
+	"C1_4"
+	{
+	"en"			"category1, item4, no message"
+	"pt"			"categoria1, item4, sem mensagem"
+	"es"			"categoría1, elemento4, sin mensaje"
+	}
+	"C1_5"
+	{
+	"en"			"How to edit menu"
+	"pt"			"Como editar o menu"
+	"es"			"Cómo editar el menú"
+	}
+	"C1_5_1"
+	{
+	"en"			"Open the file on \n(ENG.ver){olive}\"sourcemod/translations/server_info_panel.phrases.txt\""
+	"pt"			"Abra o arquivo em \n(POR.ver){olive}\"sourcemod/translations/pt/server_info_panel.phrases.txt\""
+	"es"			"Abra el archivo en \n(ESP.ver){olive}\"sourcemod/translations/es/server_info_panel.phrases.txt\""
+	}
+	"C1_5_2"
+	{
+	"en"			"(JPN.ver){olive}\"sourcemod/translations/jp/server_info_panel.phrases.txt\""
+	"pt"			"(JPN.ver){olive}\"sourcemod/translations/jp/server_info_panel.phrases.txt\""
+	"es"			"(JPN.ver){olive}\"sourcemod/translations/jp/server_info_panel.phrases.txt\""
+	}
+	"CATEGORY2"
+	{
+	"en"			"Available Colors"
+	"pt"			"Cores Disponíveis"
+	"es"			"Colores Disponibles"
+	}
+	"C2_1"
+	{
+	"en"			"default"
+	"pt"			"default"
+	"es"			"default"
+	}
+	"C2_1_1"
+	{
+	"en"			"{default}default"
+	"pt"			"{default}default"
+	"es"			"{default}default"
+	}
+	"C2_2"
+	{
+	"en"			"olive"
+	"pt"			"olive"
+	"es"			"olive"
+	}
+	"C2_2_1"
+	{
+	"en"			"{olive}olive"
+	"pt"			"{olive}olive"
+	"es"			"{olive}olive"
+	}
+	"C2_3"
+	{
+	"en"			"lightgreen"
+	"pt"			"lightgreen"
+	"es"			"lightgreen"
+	}	
+	"C2_3_1"
+	{
+	"en"			"{lightgreen}lightgreen"
+	"pt"			"{lightgreen}lightgreen"
+	"es"			"{lightgreen}lightgreen"
+	}
+	"C2_4"
+	{
+	"en"			"green"
+	"pt"			"green"
+	"es"			"green"
+	}	
+	"C2_4_1"
+	{
+	"en"			"{green}green (yellow on L4D(2))"
+	"pt"			"{green}green (amarelo no L4D(2))"
+	"es"			"{green}green (amarillo en L4D(2))"
+	}
+	"C2_5"
+	{
+	"en"			"red"
+	"pt"			"red"
+	"es"			"red"
+	}	
+	"C2_5_1"
+	{
+	"en"			"{red}red\nTo use this color,\nplayer have to be on the infected team,\nand it can't use with other colors."
+	"pt"			"{red}red\nPara usar esta cor,\no jogador precisa estar no time infectado,\ne não pode ser usada com outras cores."
+	"es"			"{red}red\nPara usar este color,\nel jugador debe estar en el equipo infectado,\ny no se puede usar con otros colores."
+	}
+	"C2_6"
+	{
+	"en"			"blue"
+	"pt"			"blue"
+	"es"			"blue"
+	}	
+	"C2_6_1"
+	{
+	"en"			"{blue}blue\nTo use this color,\nplayer have to be on the survivor team,\nand can't use with other colors."
+	"pt"			"{blue}blue\nPara usar esta cor,\no jogador precisa estar no time sobrevivente,\ne não pode ser usada com outras cores."
+	"es"			"{blue}blue\nPara usar este color,\nel jugador debe estar en el equipo sobreviviente,\ny no se puede usar con otros colores."
+	}
+	"CATEGORY3"
+	{
+	"en"			"Weapons(example)"
+	"pt"			"Armas(exemplo)"
+	"es"			"Armas(ejemplo)"
+	}
+	"C3_1"
+	{
+	"en"			"Assault Rifle"
+	"pt"			"Fuzil de Assalto"
+	"es"			"Fusil de Asalto"
+	}
+	"C3_2"
+	{
+	"en"			"M16"
+	"pt"			"M16"
+	"es"			"M16"
+	}
+	"C3_2_1"
+	{
+	"en"			"It's quick!"
+	"pt"			"É rápida!"
+	"es"			"¡Es rápida!"
+	}
+	"C3_3"
+	{
+	"en"			"AK-47"
+	"pt"			"AK-47"
+	"es"			"AK-47"
+	}
+	"C3_3_1"
+	{
+	"en"			"It's powerful!"
+	"pt"			"É poderosa!"
+	"es"			"¡Es poderosa!"
+	}
+	"C3_4"
+	{
+	"en"			"SCAR"
+	"pt"			"SCAR"
+	"es"			"SCAR"
+	}
+	"C3_4_1"
+	{
+	"en"			"It's 3-round burst!"
+	"pt"			"É de rajada de 3 tiros!"
+	"es"			"¡Es de ráfaga de 3 disparos!"
+	}
+	"C3_5"
+	{
+	"en"			"-"
+	"pt"			"-"
+	"es"			"-"
+	}
+	"C3_6"
+	{
+	"en"			"-"
+	"pt"			"-"
+	"es"			"-"
+	}
+	"C3_7"
+	{
+	"en"			"-"
+	"pt"			"-"
+	"es"			"-"
+	}
+	"C3_8"
+	{
+	"en"			"Shotgun"
+	"pt"			"Espingarda"
+	"es"			"Escopeta"
+	}
+	"C3_9"
+	{
+	"en"			"SPAS"
+	"pt"			"SPAS"
+	"es"			"SPAS"
+	}
+	"C3_9_1"
+	{
+	"en"			"It has {green}AMAZING {default}power!"
+	"pt"			"Tem um poder {green}INCRÍVEL {default}!"
+	"es"			"¡Tiene un poder {green}INCREÍBLE {default}!"
+	}
+	"C3_10"
+	{
+	"en"			"Auto Shotgun"
+	"pt"			"Espingarda Automática"
+	"es"			"Escopeta Automática"
+	}
+	"C3_10_1"
+	{
+	"en"			"It IS {lightgreen}EPIC!"
+	"pt"			"Ela É {lightgreen}ÉPICA!"
+	"es"			"¡Es {lightgreen}ÉPICA!"
+	}
+	"C3_11"
+	{
+	"en"			"Pump Shotgun"
+	"pt"			"Espingarda de Bombeamento"
+	"es"			"Escopeta de Bombeo"
+	}
+	"C3_11_1"
+	{
+	"en"			"It's power specialized!"
+	"pt"			"É especializada em poder!"
+	"es"			"¡Es especializada en poder!"
+	}
+	"C3_12"
+	{
+	"en"			"Chrome Shotgun"
+	"pt"			"Espingarda Chrome"
+	"es"			"Escopeta Chrome"
+	}
+	"C3_12_1"
+	{
+	"en"			"It's accuracy specialized!"
+	"pt"			"É especializada em precisão!"
+	"es"			"¡Es especializada en precisión!"
+	}
+	"CATEGORY4"
+	{
+	"en"			"Editing Tips"
+	"pt"			"Dicas de Edição"
+	"es"			"Consejos de Edición"
+	}
+	"C4_1"
+	{
+	"en"			"Multi lines"
+	"pt"			"Múltiplas linhas"
+	"es"			"Múltiples líneas"
+	}
+	"C4_1_1"
+	{
+	"en"			"Line1\n Line2\n  Line3"
+	"pt"			"Linha1\n Linha2\n  Linha3"
+	"es"			"Línea1\n Línea2\n  Línea3"
+	}
+	"C4_2"
+	{
+	"en"			"Double quotes"
+	"pt"			"Aspas duplas"
+	"es"			"Comillas dobles"
+	}
+	"C4_2_1"
+	{
+	"en"			"Nick: \"Hello?\"  [\"] "
+	"pt"			"Nick: \"Olá?\"  [\"] "
+	"es"			"Nick: \"¿Hola?\"  [\"] "
+	}	
+	"C4_3"
+	{
+	"en"			"How to make non selectable category/item"
+	"pt"			"Como tornar categoria/item não selecionável"
+	"es"			"Cómo hacer categoría/elemento no seleccionable"
+	}
+	"C4_3_1"
+	{
+	"en"			"For category, {green}don't prepare{default} first item index (C*_1),\n{lightgreen}second or later not have to."
+	"pt"			"Para categoria, {green}não prepare{default} o primeiro índice do item (C*_1),\n{lightgreen}segundo ou posteriores não precisam."
+	"es"			"Para categoría, {green}no prepare{default} el primer índice del elemento (C*_1),\n{lightgreen}segundo o posteriores no es necesario."
+	}	
+	"C4_3_2"
+	{
+	"en"			"For item, {green}don't prepare{default} first message index(C*_*_1){default}\nRefer to translations file as example"
+	"pt"			"Para item, {green}não prepare{default} o primeiro índice da mensagem (C*_*_1)\nConsulte o arquivo de traduções como exemplo"
+	"es"			"Para elemento, {green}no prepare{default} el primer índice del mensaje (C*_*_1)\nConsulte el archivo de traducciones como ejemplo"
+	}
+	"C4_4"
+	{
+	"en"			"New\n        line\n           on\n              item\n                   name"
+	"pt"			"Novo\n        linha\n           no\n              item\n                   nome"
+	"es"			"Nueva\n        línea\n           en\n              elemento\n                   nombre"
+	}
+	"C4_4_1"
+	{
+	"en"			"Hard to read."
+	"pt"			"Difícil de ler."
+	"es"			"Difícil de leer."
+	}	
+	"C4_5"
+	{
+	"en"			"message cannot show over 250 letters at once"
+	"pt"			"mensagem não pode mostrar mais de 250 letras de uma vez"
+	"es"			"mensaje no puede mostrar más de 250 letras de una vez"
+	}
+	"C4_5_1"
+	{
+	"en"			"123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[100]56789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[200]56789/123456789/123456789/123456789/123456789/123456789[260]"
+	"pt"			"123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[100]56789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[200]56789/123456789/123456789/123456789/123456789/123456789[260]"
+	"es"			"123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[100]56789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789/123456789[200]56789/123456789/123456789/123456789/123456789/123456789[260]"
+	}
+	"C4_6"
+	{
+	"en"			"How to show over 250 letters?"
+	"pt"			"Como mostrar mais de 250 letras?"
+	"es"			"¿Cómo mostrar más de 250 letras?"
+	}
+	"C4_6_1"
+	{
+	"en"			"If your message is limited, you shoud separate message.\nthis message index is {lightgreen}C4_6_1."
+	"pt"			"Se sua mensagem é limitada, você deve separar a mensagem.\neste índice de mensagem é {lightgreen}C4_6_1."
+	"es"			"Si su mensaje es limitado, debe separar el mensaje.\neste índice de mensaje es {lightgreen}C4_6_1."
+	}
+	"C4_6_2"
+	{
+	"en"			"And this index is {lightgreen}C4_6_2{default}.\nSo you can extend message over 250 letters like this."
+	"pt"			"E este índice é {lightgreen}C4_6_2{default}.\nEntão você pode estender a mensagem para mais de 250 letras assim."
+	"es"			"Y este índice es {lightgreen}C4_6_2{default}.\nAsí puedes extender el mensaje a más de 250 letras de esta manera."
+	}
+	"C4_7"
+	{
+	"en"			"But..."
+	"pt"			"Mas..."
+	"es"			"Pero..."
+	}
+	"C4_7_1"
+	{
+	"en"			"Too long message is not player friendly.\nMake it simply."
+	"pt"			"Mensagens muito longas não são amigáveis para o jogador.\nMantenha simples."
+	"es"			"Los mensajes demasiado largos no son amigables para el jugador.\nManténgalo simple."
+	}
+	"C4_8"
+	{
+	"en"			"How to translate to other language"
+	"pt"			"Como traduzir para outro idioma"
+	"es"			"Cómo traducir a otro idioma"
+	}
+	"C4_8_1"
+	{
+	"en"			"Change language tag \"en\" to you like.\nRefer to Japanese version as example."
+	"pt"			"Mude a tag de idioma \"en\" para o que desejar.\nConsulte a versão japonesa como exemplo."
+	"es"			"Cambie la etiqueta de idioma \"en\" al que desee.\nConsulte la versión japonesa como ejemplo."
+	}
+	"C4_8_2"
+	{
+	"en"			"{olive}Don't forget to change character code to {lightgreen}\"UTF-8\" {olive}if you use special characters."
+	"pt"			"{olive}Não se esqueça de alterar o código de caracteres para {lightgreen}\"UTF-8\" {olive}se você usar caracteres especiais."
+	"es"			"{olive}No olvides cambiar el código de caracteres a {lightgreen}\"UTF-8\" {olive}si usas caracteres especiales."
+	}
+	"C4_9"
+	{
+	"en"			"Text Editor"
+	"pt"			"Editor de Texto"
+	"es"			"Editor de Texto"
+	}
+	"C4_9_1"
+	{
+	"en"			"Recommend to use advanced text editor like {olive}\"Notepad++\"{default}, not default editor.\nThey're easier to edit."
+	"pt"			"Recomenda-se usar um editor de texto avançado como {olive}\"Notepad++\"{default}, não o editor padrão.\nEles são mais fáceis de editar."
+	"es"			"Se recomienda usar un editor de texto avanzado como {olive}\"Notepad++\"{default}, no el editor predeterminado.\nSon más fáciles de editar."
+	}
+	"C4_10"
+	{
+	"en"			"Color of instructor hint"
+	"pt"			"Cor da dica do instrutor"
+	"es"			"Color de la pista del instructor"
+	}
+	"C4_10_1"
+	{
+	"en"			"Now you can change this color with {blue}sm_sip_note_instructorColor"
+	"pt"			"Agora você pode alterar esta cor com {blue}sm_sip_note_instructorColor"
+	"es"			"Ahora puedes cambiar este color con {blue}sm_sip_note_instructorColor"
+	}
+	"C4_11"
+	{
+	"en"			"attention"
+	"pt"			"atenção"
+	"es"			"atención"
+	}
+	"C4_11_1"
+	{
+	"en"			"if the number of items does not match between other language files, it causes bugs for display."
+	"pt"			"se o número de itens não corresponder entre outros arquivos de idioma, isso causa bugs na exibição."
+	"es"			"si el número de elementos no coincide entre otros archivos de idioma, causa errores en la visualización."
+	}
+	"CATEGORY5"
+	{
+	"en"			"Category with no item"
+	"pt"			"Categoria sem item"
+	"es"			"Categoría sin elemento"
+	}
+//	"C5_1"
+//	{
+//	"en"			"you can also disable category/item like this"
+//	}
+	"C5_1_1"
+	{
+	"en"			"it's enough to just comment out only first item to prevent load"
+	"pt"			"é suficiente apenas comentar o primeiro item para evitar o carregamento"
+	"es"			"es suficiente con comentar solo el primer elemento para evitar la carga"
+	}
+	"C5_2"
+	{
+	"en"			":3"
+	"pt"			":3"
+	"es"			":3"
+	}
+	"C5_2_1"
+	{
+	"en"			"Items after this on 5th category won't be load unless prepare index C5_1"
+	"pt"			"Itens após este na 5ª categoria não serão carregados a menos que prepare o índice C5_1"
+	"es"			"Los elementos después de este en la 5ª categoría no se cargarán a menos que prepare el índice C5_1"
+	}	
+	"CATEGORY6"				
+	{
+	"en"			"Hide category"
+	"pt"			"Ocultar categoria"
+	"es"			"Ocultar categoría"
+	}
+	"C6_1"					
+	{
+	"en"			"how to hide category"
+	"pt"			"como ocultar categoria"
+	"es"			"cómo ocultar categoría"
+	}
+	"C6_1_1"
+	{
+	"en"			"actually you can't.\nif you want to hide category, make category name empty and disable it like category7."
+	"pt"			"na verdade, você não pode.\nse quiser ocultar a categoria, deixe o nome da categoria vazio e desabilite-a como a categoria7."
+	"es"			"en realidad no puedes.\nsi quieres ocultar la categoría, deja el nombre de la categoría vacío y deshabilítala como la categoría7."
+	}
+	"CATEGORY7"				
+	{
+	"en"			""
+	"pt"			""
+	"es"			""
+	}
+//	"C7_1"					
+//	{
+//	"en"			"category7, item1"
+//	}
+	"C7_1_1"
+	{
+	"en"			"I have no tips to say anymore :3"
+	"pt"			"Não tenho mais dicas para dizer :3"
+	"es"			"No tengo más consejos que decir :3"
+	}
+		
+	
+}

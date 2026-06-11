@@ -1,0 +1,274 @@
+//--------------------------------------------------
+
+// To Customize The Texts Color, Use The Following:
+
+// default (white) - {default}
+// turquoise - {lightgreen}
+// orange - {green}
+// olive - {olive}
+
+// -------------------------------------------------
+
+
+"Phrases"
+{
+	"Loaders Connecting"
+	{
+		"en"			"Loaders Are Connecting, Please Wait ..."
+		"chi"			"加载器正在连接, 请稍候 ..."
+		"ru"			"Игроки подключаются,пожалуйста подождите ..."
+		"pt"			"Carregadores estão conectando, aguarde ..."
+		"es"			"Cargadores están conectando, espere por favor ..."
+	}
+
+	"Ready Up Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"			"Ready Up Time: {1}"
+		"chi"			"准备时间: {1}"
+		"ru"			"Время готовности:"
+		"pt"			"Tempo de preparação: {1}"
+		"es"			"Tiempo de preparación: {1}"
+	}
+
+	"Round Begin Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"			"Round Will Begin In: {1}"
+		"chi"			"回合将在 {1} 后开始"
+		"ru"			"Раунд начнётся через: {1}"
+		"pt"			"Rodada começará em: {1}"
+		"es"			"La ronda comenzará en: {1}"
+	}
+
+	"Move Out"
+	{
+		"en"			"Move Out!"
+		"chi"			"开干!"
+		"ru"			"Выдвигаемся!"
+		"pt"			"Avancem!"
+		"es"			"¡Avancen!"
+	}
+
+	"Leavers Message"
+	{
+		"en"			"Players are not ready, please wait ..."
+		"chi"			"其他玩家尚未准备好, 请等待 ..."
+		"ru"			"Игроки не готовы,пожалуйста подождите ..."
+		"pt"			"Jogadores não estão prontos, aguarde ..."
+		"es"			"Los jugadores no están listos, espere por favor ..."
+	}
+
+	"Round Started"
+	{
+		"en"			"[Lock] Error: round already started."
+		"chi"			"[Lock] 错误: 回合尚未开始"
+		"ru"			"[Lock] Ошибка: раунд уже начался."
+		"pt"			"[Lock] Erro: a rodada já começou."
+		"es"			"[Lock] Error: la ronda ya comenzó."
+	}
+
+	"Saferoom Locked"
+	{
+		"en"			"[Lock] Error: The safe area is already locked."
+		"chi"			"[Lock] 错误: 安全区域尚未解锁"
+		"ru"			"[Lock] Ошибка: Убежище уже закрыто"
+		"pt"			"[Lock] Erro: A área segura já está trancada."
+		"es"			"[Lock] Error: El área segura ya está bloqueada."
+	}
+
+	"Saferoom Unlocked"
+	{
+		"en"			"[Lock] Error: The safe area is already unlocked."
+		"chi"			"[Lock] 错误: 安全区域解锁中"
+		"ru"			"[Lock] Ошибка: Убежище уже открыто"
+		"pt"			"[Lock] Erro: A área segura já está destrancada."
+		"es"			"[Lock] Error: El área segura ya está desbloqueada."
+	}
+
+	"Ready Up Time Ended"
+	{
+		"en"			"[Lock] Error: ready up time has ended."
+		"chi"			"[Lock] 错误: 准备时间已结束"
+		"ru"			"[Lock] Ошибка: истекло время готовности."
+		"pt"			"[Lock] Erro: o tempo de preparação terminou."
+		"es"			"[Lock] Error: el tiempo de preparación ha terminado."
+	}
+
+	"Admin Locks"
+	{
+		"#format"		"{1:N}"
+		"en"			"[Lock] Admin {1} has locked the safe area."
+		"chi"			"[Lock] 管理员 {1} 已锁定安全区域"
+		"ru"			"[Lock] Админ {1}: заблокировал убежище."
+		"pt"			"[Lock] O admin {1} trancou a área segura."
+		"es"			"[Lock] El admin {1} ha bloqueado el área segura."
+	}
+
+	"Admin Unlocks"
+	{
+		"#format"		"{1:N}"
+		"en"			"[Lock] Admin {1} has unlocked the safe area."
+		"chi"			"[Lock] 管理员 {1} 已解锁安全区域"
+		"ru"			"[Lock] Админа {1}: разблокировал убежище."
+		"pt"			"[Lock] O admin {1} destrancou a área segura."
+		"es"			"[Lock] El admin {1} ha desbloqueado el área segura."
+	}
+
+	"Spectator Ready"
+	{
+		"en"			"[Lock] Error: you need to join a team to use this command."
+		"chi"			"[Lock] 错误: 你需要加入队伍来使用这个指令"
+		"ru"			"[Lock] Ошибка: Вам нужно вступить в команду для использования команды"
+		"pt"			"[Lock] Erro: você precisa entrar em um time para usar este comando."
+		"es"			"[Lock] Error: necesitas unirte a un equipo para usar este comando."
+	}
+
+	"You Are Ready"
+	{
+		"en"			"[Lock] Error: you are ready."
+		"chi"			"[Lock] 错误: 你已经准备好了"
+		"ru"			"[Lock] Ошибка: Вы готовы"
+		"pt"			"[Lock] Erro: você já está pronto."
+		"es"			"[Lock] Error: ya estás listo."
+	}
+
+	"You Are Unready"
+	{
+		"en"			"[Lock] Error: you are unready."
+		"chi"			"[Lock] 错误: 你尚未准备"
+		"ru"			"[Lock] Ошибка: Вы не готовы"
+		"pt"			"[Lock] Erro: você não está pronto."
+		"es"			"[Lock] Error: no estás listo."
+	}
+
+	"Ready Up Limit"
+	{
+		"en"			"[Lock] Error: you can't use this command anymore."
+		"chi"			"[Lock] 错误: 你无法继续使用这个指令"
+		"ru"			"[Lock] Ошибка: Вы больше не можете использовать эту команду"
+		"pt"			"[Lock] Erro: você não pode mais usar este comando."
+		"es"			"[Lock] Error: ya no puedes usar este comando."
+	}
+
+	"Admin Controls"
+	{
+		"en"			"[Lock] Error: admin is controlling safe area."
+		"chi"			"[Lock] 错误: 管理员已控制此安全区域"
+		"ru"			"[Lock] Ошибка: админ контроллирует убежище"
+		"pt"			"[Lock] Erro: o admin está controlando a área segura."
+		"es"			"[Lock] Error: el admin está controlando el área segura."
+	}
+
+	"Player Is Ready"
+	{
+		"en"			"You are ready."
+		"chi"			"你已经准备好了"
+		"ru"			"Вы готовы"
+		"pt"			"Você está pronto."
+		"es"			"Estás listo."
+	}
+
+	"Player Is Unready"
+	{
+		"en"			"You are unready."
+		"chi"			"你还没有准备好"
+		"ru"			"Вы не готовы"
+		"pt"			"Você não está pronto."
+		"es"			"No estás listo."
+	}
+
+	"Notify Survivors Ready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The survivor team is ready ({1}/{2} - {3})."
+		"chi"			"[Lock] 生还者团队已准备 ({1}/{2} - {3})."
+		"ru"			"[Lock] Команда Выживших готова"
+		"pt"			"[Lock] O time dos sobreviventes está pronto ({1}/{2} - {3})."
+		"es"			"[Lock] El equipo de sobrevivientes está listo ({1}/{2} - {3})."
+	}
+
+	"Notify Infected Ready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The infected team is ready ({1}/{2} - {3})."
+		"chi"			"[Lock] 感染者团队已准备 ({1}/{2} - {3})."
+		"ru"			"[Lock] Команда Заражённых готова"
+		"pt"			"[Lock] O time dos infectados está pronto ({1}/{2} - {3})."
+		"es"			"[Lock] El equipo de infectados está listo ({1}/{2} - {3})."
+	}
+
+	"Notify Survivors Unready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The survivor team is unready ({1}/{2} - {3})."
+		"chi"			"[Lock] 生还者团队未准备 ({1}/{2} - {3})."
+		"ru"			"[Lock] Команда Выживших не готова"
+		"pt"			"[Lock] O time dos sobreviventes não está pronto ({1}/{2} - {3})."
+		"es"			"[Lock] El equipo de sobrevivientes no está listo ({1}/{2} - {3})."
+	}
+
+	"Notify Infected Unready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The infected team is unready ({1}/{2} - {3})."
+		"chi"			"[Lock] 感染者团队未准备 ({1}/{2} - {3})."
+		"ru"			"[Lock] Команда Заражённых не готова"
+		"pt"			"[Lock] O time dos infectados não está pronto ({1}/{2} - {3})."
+		"es"			"[Lock] El equipo de infectados no está listo ({1}/{2} - {3})."
+	}
+
+	"Menu Title"
+	{
+		"en"			"Are You Ready To Start:"
+		"chi"			"你准备好了吗:"
+		"ru"			"Вы готовы к старту?:"
+		"pt"			"Você está pronto para começar:"
+		"es"			"¿Estás listo para comenzar:"
+	}
+
+	"Menu Ready"
+	{
+		"en"			"Ready"
+		"chi"			"按1确认准备"
+		"ru"			"Готов"
+		"pt"			"Pronto"
+		"es"			"Listo"
+	}
+
+	"Menu Unready"
+	{
+		"en"			"Unready"
+		"chi"			"按2取消准备"
+		"ru"			"Не готов"
+		"pt"			"Não pronto"
+		"es"			"No listo"
+	}
+
+	"Menu Survivor"
+	{
+		"en"			"Survivor"
+		"chi"			"生还者"
+		"ru"			"Выживший"
+		"pt"			"Sobrevivente"
+		"es"			"Sobreviviente"
+	}
+
+	"Menu Infected"
+	{
+		"en"			"Infected"
+		"chi"			"感染者"
+		"ru"			"Заражённый"
+		"pt"			"Infectado"
+		"es"			"Infectado"
+	}
+
+	"Menu Close"
+	{
+		"en"			"Close"
+		"chi"			"关闭"
+		"ru"			"Закрыть"
+		"pt"			"Fechar"
+		"es"			"Cerrar"
+	}
+}

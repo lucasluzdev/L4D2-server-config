@@ -1,0 +1,16 @@
+REGRAS:
+- Respeite os jogadores!
+- Sem comportamento toxico!
+- Nao atrapalhar o proprio time!
+- Nao abusar de bugs!
+
+COMANDOS:
+- !afk -> espectador
+- !survivors -> entrar no time sobrevivente
+- !infected -> entrar no time infectado
+- !pass OU !tankpass OU !passtank -> passar o tank para um membro da equipe
+- !tank -> ver onde tank/witch vão spawnar, e o progresso atual dos sobreviventes
+- !tankbuster -> obter armas T1
+- Tank tem 8000 de HP, e pedras divididas entre M2, E e R. SEM HAYMAKER!
+
+BOM JOGO!

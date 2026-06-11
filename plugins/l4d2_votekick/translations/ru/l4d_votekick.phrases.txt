@@ -1,0 +1,193 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"ru"		"Кого кикнуть / снять кик:"
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{orange}Слишком мало игроков для голосования. {cyan}Нужно минимум: {1}"
+	}
+	"not_in_game"
+	{
+		"ru"		"{orange}Клиент уже отключился."
+	}
+	"no_access_specific"
+	{
+		"ru"		"{cyan}%N {orange}пытается голосовать за кик против {cyan}%s{orange}, но не имеет доступа."
+	}
+	"no_access_specific_unkick"
+	{
+		"ru"		"{cyan}%N {orange}пытается голосовать за снятие кика с {cyan}%s{orange}, но не имеет доступа."
+	}
+	"no_access"
+	{
+		"ru"		"Нет доступа."
+	}
+	"no_access_immunity"
+	{
+		"ru"		"Цель имеет более высокий иммунитет."
+	}
+	"other_vote"
+	{
+		"ru"		"{orange}Другое голосование ещё не закончилось!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Кикнуть игрока: {1} ?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Снять кик с игрока: {1} ?"
+	}
+	"vote_started"
+	{
+		"ru"		"{cyan}%N {white}начал голосование за кик: {cyan}%s\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"ru"		"Началось голосование за исключение {cyan}%s{white}\n"
+	}
+	"vote_started_otherteam"
+	{
+		"ru"		"Команда противника начала голосование по вопросу исключения члена команды."
+	}
+	"vote_started_unkick"
+	{
+		"ru"		"{cyan}%N {orange}начал голосование за снятие кика с: {cyan}%s"
+	}
+	"Yes"
+	{
+		"ru"		"Да"
+	}
+	"No"
+	{
+		"ru"		"Нет"
+	}
+	"too_often"
+	{
+		"ru"		"{orange}Вы не можете голосовать слишком часто!"
+	}
+	"veto"
+	{
+		"ru"		"{cyan}%N {white}наложил вето на голосование"
+	}
+	"votepass"
+	{
+		"ru"		"{cyan}%N {white}принудительно продвинул голосование"
+	}
+	"vote_failed"
+	{
+		"ru"		"Голосование за кик {orange}провалилось."
+	}
+	"vote_failed_otherteam"
+	{
+		"ru"		"Голосование другой команды по исключению игрока не состоялось."
+	}
+	"vote_failed_unkick"
+	{
+		"ru"		"Голосование за снятие кика провалилось."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{cyan}{1} {white}был кикнут"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"ru"		"Другая команда выгнала {1} путем голосования."
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{cyan}{1} {orange}- кик был снят"
+	}
+	"kick_reason"
+	{
+		"ru"		"Вас выгнали из сессии"
+	}
+	"kick_for"
+	{
+		"ru"		"Кикнут за"
+	}
+	"Reason_Menu"
+	{
+		"ru"		"Причина"
+	}
+	"Reason"
+	{
+		"ru"		"{white}Причина:{orange}"
+	}
+	"Bad language"
+	{
+		"ru"		"Оскорбления / мат"
+	}
+	"Cheater"
+	{
+		"ru"		"Читер"
+	}
+	"Rusher"
+	{
+		"ru"		"Рашер"
+	}
+	"Friendly fire"
+	{
+		"ru"		"Стреляет по своим"
+	}
+	"Griefing"
+	{
+		"ru"		"Руинит игру"
+	}
+	"Microphone"
+	{
+		"ru"		"Микрофон мешает"
+	}
+	"Microphone issues"
+	{
+		"ru"		"Микрофон мешает"
+	}
+	"AFK"
+	{
+		"ru"		"AFK"
+	}	
+	"Other"
+	{
+		"ru"		"Другое"
+	}
+	"Reason not specified"
+	{
+		"ru"		"Причина не указана"
+	}
+	"detailed_vote_results"
+	{
+		"ru"		"Голосование завершено.  ({green}За{white} – {orange}Против{white} – без ответа):  {green}%d{white} – {orange}%d{white} – %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"ru"		"{green}Примечание: Ваш «нет»-голос будет учтен автоматически"
+	}
+	"note_to_target_manual_vote"
+	{
+		"ru"		"{orange}Поскольку вы неактивны, вам придется проголосовать вручную."
+	}
+	"survivor"
+	{
+		"ru"		"Survivor"
+	}
+	"infected"
+	{
+		"ru"		"Infected"
+	}
+}

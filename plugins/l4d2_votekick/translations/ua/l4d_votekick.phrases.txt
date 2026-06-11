@@ -1,0 +1,189 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"ua"		"Виберіть гравця, якого хочете вигнати/розбанити:"		
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"ua"		"{orange}Недостатньо гравців для початку голосування. {cyan}Необхідний мінімум: {1}"
+	}
+	"not_in_game"
+	{
+		"ua"		"{orange}Гравець вже відключений."
+	}
+	"no_access_specific"
+	{
+		"ua"		"{cyan}%N {orange}спробував розпочати голосування за виключення {cyan}%s{orange}, але не має доступу."
+	}
+	"no_access_specific_unkick"
+	{
+		"ua"		"{cyan}%N {orange}спробував розпочати голосування за скасування виключення {cyan}%s{orange}, але не має доступу."
+	}
+	"no_access"
+	{
+		"ua"		"Немає доступу."
+	}
+	"no_access_immunity"
+	{
+		"ua"		"Ціль має вищий імунітет."
+	}
+	"other_vote"
+	{
+		"ua"		"{orange}Ще одне голосування не закінчено!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Ви хочете вигнати: {1}?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"ua"		"Ви хочете зняти заборону з: {1}?"
+	}
+	"vote_started"
+	{
+		"ua"		"{cyan}%N {white}розпочав голосування за виключення {cyan}%s\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"ua"		"Розпочато голосування за виключення {cyan}%s{white}.\n"
+	}
+	"vote_started_otherteam"
+	{
+		"ua"		"Команда суперника розпочала голосування щодо виключення члена команди."
+	}
+	"vote_started_unkick"
+	{
+		"ua"		"{cyan}%N {orange} розпочав голосування за скасування виключення: {cyan}%s"
+	}
+	"Yes"
+	{
+		"ua"		"так"
+	}
+	"No"
+	{
+		"ua"		"немає"
+	}
+	"too_often"
+	{
+		"ua"		"{orange}Не можна голосувати занадто часто!"
+	}
+	"veto"
+	{
+		"ua"		"{orange}Поточний голос відхилено користувачем {cyan}%N"
+	}
+	"votepass"
+	{
+		"ua"		"{green}Поточний голос схвалено користувачем {cyan}%N"
+	}
+	"vote_failed"
+	{
+		"ua"		"Голосування за виключення не вдалося."
+	}
+	"vote_failed_otherteam"
+	{
+		"ua"		"Голосування команди суперника не вдалося."
+	}
+	"vote_failed_unkick"
+	{
+		"ua"		"Голосування за скасування заборони {orange} не пройшло."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{cyan}{1} {white}було виключено"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{1} виключено голосуванням"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"ua"		"{cyan}{1} {green}- заборону знято"
+	}
+	"kick_for"
+	{
+		"ua"		"Вигнали за"
+	}
+	"Reason_Menu"
+	{
+		"ua"		"Причина"
+	}
+	"Reason"
+	{
+		"ua"		"{white}Причина:{orange}"
+	}
+	"Bad language"
+	{
+		"ua"		"Погана мова"
+	}
+	"Cheater"
+	{
+		"ua"		"Cheater"
+	}
+	"Rusher"
+	{
+		"ua"		"Rusher"
+	}
+	"Friendly fire"
+	{
+		"ua"		"Дружній вогонь"
+	}
+	"Griefing"
+	{
+		"ua"		"Griefing"
+	}
+	"Microphone"
+	{
+		"ua"		"Проблеми з мікрофоном"
+	}
+	"Microphone issues"
+	{
+		"ua"		"Проблеми з мікрофоном"
+	}
+	"AFK"
+	{
+		"ua"		"AFK"
+	}	
+	"Other"
+	{
+		"ua"		"Інші причини"
+	}
+	"Reason not specified"
+	{
+		"ua"		"Причина не вказана"
+	}
+	"detailed_vote_results"
+	{
+		"ua"		"Голосування завершено. ({green}Так{white} - {orange}Ні{white} - Без відповіді): {green}%d{white} - {orange}%d{white} - %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"ua"		"{green}Примітка: Ваш голос проти буде автоматично віддано"
+	}
+	"note_to_target_manual_vote"
+	{
+		"ua"		"{orange}Оскільки ви неактивні, вам потрібно проголосувати вручну проти цього."
+	}
+	"survivor"
+	{
+		"ua"		"Survivor"
+	}
+	"infected"
+	{
+		"ua"		"Infected"
+	}
+}

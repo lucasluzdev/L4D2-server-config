@@ -1,0 +1,146 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Player To Kick"
+	{
+		"pl"		"Wybierz gracza do wyrzucenia / odbanowania:"		
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"pl"		"{orange}Za mało graczy, aby rozpocząć głosowanie. {cyan}Wymagana minimalna liczba: {1}"
+	}
+	"not_in_game"
+	{
+		"pl"		"{orange}Gracz jest już rozłączony."
+	}
+	"no_access_specific"
+	{
+		"pl"		"{cyan}%N {orange}próbował rozpocząć głosowanie za wyrzuceniem {cyan}%s{orange}, ale nie ma do tego uprawnień."
+	}
+	"no_access_specific_unkick"
+	{
+		"pl"		"{cyan}%N {orange}próbował rozpocząć głosowanie, aby cofnąć zakaz {cyan}%s{orange}, ale nie ma dostępu."
+	}
+	"no_access"
+	{
+		"pl"		"Brak dostępu."
+	}
+	"no_access_immunity"
+	{
+		"pl"		"Docelowy użytkownik ma wyższą rangę."
+	}
+	"other_vote"
+	{
+		"pl"		"{orange}Jest jeszcze jeden głos, który nie został jeszcze zakończony!"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:s}"
+		"pl"		"Czy chcesz wykopać: {1} ?"
+	}
+	"vote_started_announce_unkick"
+	{
+		"#format"	"{1:s}"
+		"pl"		"Czy chcesz usunąć zakaz z: {1} ?"
+	}
+	"vote_started"
+	{
+		"pl"		"{cyan}%N {white}started a vote to kick {cyan}%s\n"
+	}
+	"vote_started_anonymous_initiator"
+	{
+		"pl"		"Rozpoczęto głosowanie w sprawie wyrzucenia {cyan}%s{white}.\n"
+	}
+	"vote_started_otherteam"
+	{
+		"pl"		"Przeciwny zespół rozpoczął głosowanie w sprawie usunięcia członka zespołu.\n"
+	}
+	"vote_started_unkick"
+	{
+		"pl"		"{cyan}%N {white}rozpoczął głosowanie w sprawie odwołania bana: {cyan}%s"
+	}
+	"vote_started_unkick_anonymous_initiator"
+	{
+		"pl"		"Rozpoczęto głosowanie w sprawie zniesienia zakazu dla {cyan}%s{white}.\n"
+	}
+	"vote_started_unkick_otherteam"
+	{
+		"pl"		"Druga drużyna rozpoczęła głosowanie w celu zniesienia bana: {cyan}%s"
+	}
+	"Yes"
+	{
+		"pl"		"Tak"
+	}
+	"No"
+	{
+		"pl"		"Nie"
+	}
+	"too_often"
+	{
+		"pl"		"{orange}Nie możesz głosować zbyt często!"
+	}
+	"veto"
+	{
+		"pl"		"{orange}Aktualny głos zostaje zawetowany przez {cyan}%N"
+	}
+	"votepass"
+	{
+		"pl"		"{green}Obecne głosowanie zostało zaakceptowane przez {cyan}%N"
+	}
+	"vote_failed"
+	{
+		"pl"		"Głosowanie nad wyrzuceniem nie powiodło się."
+	}
+	"vote_failed_otherteam"
+	{
+		"pl"		"Głosowanie zespołu przeciwnego w sprawie wyrzucenia nie powiodło się."
+	}
+	"vote_failed_unkick"
+	{
+		"pl"		"Głosowanie nad zniesieniem zakazu nie powiodło się."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:s}"
+		"pl"		"{cyan}{1} {white}zostaje wyrzucony"
+	}
+	"vote_success_otherteam"
+	{
+		"#format"	"{1:s}"
+		"pl"		"Przeciwny zespół odrzucił {1} w głosowaniu"
+	}
+	"vote_success_unkick"
+	{
+		"#format"	"{1:s}"
+		"pl"		"{cyan}{1} {white}- ban is removed"
+	}
+	"kick_for"
+	{
+		"pl"		"Wyrzucony za"
+	}
+	"time_left"
+	{
+		"#format"	"{1:i}"
+		"pl"		"({1} min. pozostało)"
+	}
+	"detailed_vote_results"
+	{
+		"pl"		"Głosowanie zakończone.  ({green}Tak{white} - {orange}Nie{white} - Nieodpowiedziane):  {green}%d{white} - {orange}%d{white} - %d"
+	}
+	"note_to_target_automatic_vote"
+	{
+		"pl"		"{green}Uwaga: Twój głos przeciw zostanie oddany automatycznie"
+	}
+	"note_to_target_manual_vote"
+	{
+		"pl"		"{orange}Ponieważ jesteś nieaktywny, musisz głosować przeciwko temu ręcznie"
+	}
+}
